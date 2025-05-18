@@ -22,6 +22,8 @@ let package = Package(
             dependencies: ["Interfaces"]
         ),
         .target(
-            name: "Interfaces"),
+            name: "Interfaces",
+            dependencies: []
+        )
     ]
 )
